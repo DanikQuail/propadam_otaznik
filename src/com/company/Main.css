@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'STYLLL';
+    src: url('/fonts/coolvetica-webfont.woff2') format('woff2'),
+    url('/fonts/coolvetica-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    background-color: #1d1d1d;
+}
+h1{
+    font-family: 'STYLLL', "Roboto Medium", sans-serif;
+    letter-spacing: 1px;
+    font-size: 64px;
+    color: white;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+h2{
+    font-family: 'STYLLL', "Roboto Medium", sans-serif;
+    margin-left: 1%;
+}
+
+.container{
+    background-color: black ;
+    color: white;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 2%;
+    font-family: 'STYLLL', "Roboto Medium", sans-serif;
+    border: 2px solid darkred;
+    width: 80%;
+}
+.textik{
+    background-color: black;
+    border: 2px solid darkred;
+    color: white;
+    width: 50%;
+    height: 10%;
+    font-family: 'STYLLL', "Roboto Medium", sans-serif;
+    font-size: 20px;
+    margin-left: 10%;
+}
+.textik p{
+    margin-left: 1%;
+}
+.input1{
+    margin-left: 1%;
+    margin-top: 1%;
+    width: 20%;
+    color: white;
+    height: 30px;
+    background-color: #1d1d1d;
+}
+.input2{
+    margin-left: 3%;
+    margin-top: 1%;
+    color: white;
+    width: 20%;
+    height: 30px;
+    background-color: #1d1d1d;
+}
+ .tlacitka button {
+    background-color: #000000;
+    color: white;
+    height: 40px;font-family: 'STYLLL', "Roboto Medium", sans-serif;
+    width: 210px;
+    border: 1px solid darkred;
+    margin: 20px;
+    cursor: pointer;
+    font-size: 17px;
+    outline: none;
+}
+.tlacitka button:hover{
+    background-color: darkred;
+}
+.listznamek{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'STYLLL', "Roboto Medium", sans-serif;
+    margin-left: 10%;
+    margin-top: 2%;
+    border: 2px solid darkred;
+    width: 50%;
+    font-size: 20px;
+}
+
