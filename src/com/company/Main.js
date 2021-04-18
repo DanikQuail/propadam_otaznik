@@ -55,8 +55,9 @@ let add = function () {
 let vypocitatFunkce = function () {
     let prumer = 0;
     let vahy = 0;
+    let finalnivysledek = 0;
     let vysledek = 0;
-    
+
     for (let i = 1; i < pocetznamek; i++) {
 
         let znamecky = document.getElementById("grade" + i);
@@ -65,9 +66,12 @@ let vypocitatFunkce = function () {
         let vsechnyZnamky = parseInt(znamecky.value)
         let vsechnyVahy = parseInt(ANOVAHYZNAMEK.value)
 
+
         vysledek = vsechnyZnamky * vsechnyVahy;
-        vahy += vsechnyVahy;
-        prumer = vysledek / vahy;
+        vahy += vsechnyVahy
+        finalnivysledek += vysledek
+        prumer = finalnivysledek / vahy
+
         vysledekJestliPropadam(prumer)
     }
 }
